@@ -1,0 +1,51 @@
+* {
+    font-family: math;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portada{
+    background-color: rgb(255, 196, 88);
+    height: 150px;
+    align-content: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.cardContainer {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(255, 196, 88);
+    height: 50px;
+    text-align: center;
+    align-content: center;
+}
